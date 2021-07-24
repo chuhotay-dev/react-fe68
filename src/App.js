@@ -12,7 +12,7 @@ import DemoState from './lesson-2-and-3/state/DemoState';
 import DemoStylingComponent from './lesson-2-and-3/styling-component/DemoStylingComponent';
 import PickCarColor from './lesson-2-and-3/pick-car-color/PickCarColor';
 import DemoListsAndKeys from './lesson-2-and-3/lists-and-keys/DemoListsAndKeys';
-import Main from './lesson-4/props/Main';
+import Main from './lesson-4/demo-props/Main';
 
 const App = () => {
   return (
