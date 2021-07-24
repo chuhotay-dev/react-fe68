@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ClassDataBinding extends Component {
+class DemoDataBinding extends Component {
   title = 'CyberLearn.vn';
   productName = 'Iphone 12';
   description =
@@ -23,4 +23,4 @@ class ClassDataBinding extends Component {
   }
 }
 
-export default ClassDataBinding;
+export default DemoDataBinding;
