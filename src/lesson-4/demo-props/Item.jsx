@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 class Item extends Component {
     render() {
+        // Nhận props từ object props trong component
+        // Lấy giá trị của các props thông qua key mà chúng ta truyền
         const { name, desc } = this.props;
         
         return (
