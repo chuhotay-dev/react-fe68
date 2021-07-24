@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 import Content from './Content';
 import Footer from './Footer';
 
-class HomeExsercise2 extends Component {
+class HomeExercise2 extends Component {
     render() {
         return (
             <div className="container-fluid">
@@ -27,4 +27,4 @@ class HomeExsercise2 extends Component {
     }
 }
 
-export default HomeExsercise2;
+export default HomeExercise2;

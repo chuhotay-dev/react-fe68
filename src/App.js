@@ -1,11 +1,11 @@
 import './App.css';
-import FunctionalComponent from './react-lesson-1/demo-component/FunctionalComponent';
-import ClassBasedComponent from './react-lesson-1/demo-component/ClassBasedComponent';
-import Header from './react-lesson-1/exercise-component/exsercise-1/Header';
-import Courses from './react-lesson-1/exercise-component/exsercise-1/Courses';
-import HomeExsercise2 from './react-lesson-1/exercise-component/exercise-2/HomeExsercise2';
-import HomeExsercise3 from './react-lesson-1/exercise-component/exercise-3/HomeExercise3';
-import ClassDataBinding from './react-lesson-1/data-binding/ClassDataBinding';
+import FunctionalComponent from './lesson-1/demo-component/FunctionalComponent';
+import ClassBasedComponent from './lesson-1/demo-component/ClassBasedComponent';
+import Header from './lesson-1/exercise-component/exercise-1/Header';
+import Courses from './lesson-1/exercise-component/exercise-1/Courses';
+import HomeExercise2 from './lesson-1/exercise-component/exercise-2/HomeExercise2';
+import HomeExercise3 from './lesson-1/exercise-component/exercise-3/HomeExercise3';
+import ClassDataBinding from './lesson-1/data-binding/ClassDataBinding';
 
 const App = () => {
   return (
@@ -14,15 +14,15 @@ const App = () => {
         {/* <ClassBasedComponent />
         <FunctionalComponent /> */}
 
-        {/* Exsercise 1 - Component */}
+        {/* Exercise 1 - Component */}
         {/* <Header />
         <Courses /> */}
 
-        {/* Exsercise 2 - Component */}
-        {/* <HomeExsercise2 /> */}
+        {/* Exercise 2 - Component */}
+        {/* <HomeExercise2 /> */}
 
-        {/* Exsercise 3 - Component */}
-        {/* <HomeExsercise3 /> */}
+        {/* Exercise 3 - Component */}
+        {/* <HomeExercise3 /> */}
 
         {/* Data Binding */}
         <ClassDataBinding />
