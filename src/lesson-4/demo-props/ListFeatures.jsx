@@ -9,7 +9,8 @@ class ListFeatures extends Component {
           <div className="row gx-lg-5">
             {/* props:
             - Tương tự như thuộc tính của 1 thẻ html
-            - Truyền props với dạng key=value */}
+            - Truyền props với dạng key=value
+            - Truyền từ component cha (ListFeatures) sang component con (Item) */}
             <Item name="Name 1" desc="Description 1" />
             <Item name="Name 2" desc="Description 2" />
             <Item name="Name 3" desc="Description 3" />
