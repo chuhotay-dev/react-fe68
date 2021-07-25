@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Item extends Component {
+    // Validate prop
+    static propTypes = {
+      name: PropTypes.string.isRequired,
+      desc: PropTypes.string.isRequired
+    }
+
     render() {
         // Nhận props từ object props trong component
         // Lấy giá trị của các props thông qua key mà chúng ta truyền
@@ -25,3 +32,5 @@ class Item extends Component {
 }
 
 export default Item;
+
+
