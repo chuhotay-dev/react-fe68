@@ -6,12 +6,12 @@ import Courses from './lesson-1/exercise-component/exercise-1/Courses';
 import HomeExercise2 from './lesson-1/exercise-component/exercise-2/HomeExercise2';
 import HomeExercise3 from './lesson-1/exercise-component/exercise-3/HomeExercise3';
 import DemoDataBinding from './lesson-1/data-binding/DemoDataBinding';
-import DemoHandlingEvents from './lesson-2-and-3/handling-events/DemoHandlingEvents';
-import DemoConditionalRendering from './lesson-2-and-3/conditional-rendering/DemoConditionalRendering';
-import DemoState from './lesson-2-and-3/state/DemoState';
-import DemoStylingComponent from './lesson-2-and-3/styling-component/DemoStylingComponent';
-import PickCarColor from './lesson-2-and-3/pick-car-color/PickCarColor';
-import DemoListsAndKeys from './lesson-2-and-3/lists-and-keys/DemoListsAndKeys';
+import DemoHandlingEvents from './lesson-2-3/handling-events/DemoHandlingEvents';
+import DemoConditionalRendering from './lesson-2-3/conditional-rendering/DemoConditionalRendering';
+import DemoState from './lesson-2-3/state/DemoState';
+import DemoStylingComponent from './lesson-2-3/styling-component/DemoStylingComponent';
+import PickCarColor from './lesson-2-3/pick-car-color/PickCarColor';
+import DemoListsAndKeys from './lesson-2-3/lists-and-keys/DemoListsAndKeys';
 import Main from './lesson-4/demo-props/Main';
 
 const App = () => {
