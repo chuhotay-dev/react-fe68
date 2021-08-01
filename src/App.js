@@ -1,4 +1,5 @@
 import './App.css';
+import DemoChildrenProps from './lesson-4/demo-children-props/DemoChildrenProps';
 // import FunctionalComponent from './lesson-1/demo-component/FunctionalComponent';
 // import ClassBasedComponent from './lesson-1/demo-component/ClassBasedComponent';
 // import Header from './lesson-1/exercise-component/exercise-1/Header';
@@ -14,6 +15,7 @@ import './App.css';
 // import DemoListsAndKeys from './lesson-2-3/lists-and-keys/DemoListsAndKeys';
 // import Main from './lesson-4/demo-props/Main';
 import ShoesShop from './lesson-4/shoes-shop/ShoesShop';
+import ShoesShopRedux from './lesson-5-6-7/shoes-shop-redux/ShoesShopRedux';
 
 const App = () => {
   return (
@@ -56,8 +58,14 @@ const App = () => {
       {/* Demo Props */}
       {/* <Main /> */}
 
+      {/* Demo Children Props */}
+      {/* <DemoChildrenProps /> */}
+
       {/* Shoes Shop - Props / State */}
-      <ShoesShop />
+      {/* <ShoesShop /> */}
+
+      {/* Shoes Shop - Redux */}
+      <ShoesShopRedux />
 
     </div>
   );
