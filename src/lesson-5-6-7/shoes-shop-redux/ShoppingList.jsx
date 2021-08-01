@@ -47,11 +47,11 @@ class ShoppingList extends Component {
                   </thead>
                   <tbody>
                     {/* Render shopping list */}
-                    {shoppingList.map((shoe, idx) => {
+                    {shoppingList.map(shoe => {
                       const { id, name, image, price, quantity } = shoe;
 
                       return (
-                        <tr key={idx}>
+                        <tr key={id}>
                           <td>{id}</td>
                           <td>{name}</td>
                           <td>

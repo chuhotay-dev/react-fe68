@@ -1,10 +1,12 @@
 import { createStore, combineReducers } from 'redux';
 import shoesShopReducer from './reducers/shoesShopReducer';
+import gameXucXacReducer from './reducers/gameXucXacReducer';
 
 // Khởi tạo root reducer (quản lý các reducers con)
 const rootReducer = combineReducers({
   // key: value
   shoesShopReducer, // shoesShopReducer: shoesShopReducer
+  gameXucXacReducer,
 });
 
 // Khởi tạo redux store (quản lý root reducer)
