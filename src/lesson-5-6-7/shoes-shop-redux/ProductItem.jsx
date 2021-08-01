@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { actAddToShoppingList } from '../../store/actions/shoesShopActions';
 
 class ProductItem extends Component {
   render() {
@@ -26,17 +27,11 @@ class ProductItem extends Component {
 }
 
 // Các func sẽ được chuyển thành props của component, gọi func để dispatch action lên reducer
-const mapDispatchToProps = dispatch => {
-  return {
-    addToShoppingList: shoe => {
-      const action = {
-        type: 'ADD_TO_SHOPPING_LIST',
-        payload: shoe,
-      };
-      // Dispatch action lên reducer
-      dispatch(action);
-    },
-  };
-};
+const mapDispatchToProps = dispatch => ({
+  addToShoppingList: shoe => {
+    // Dispatch action lên reducer
+    dispatch(actAddToShoppingList(shoe));
+  },
+});
 
 export default connect(null, mapDispatchToProps)(ProductItem);

@@ -31,10 +31,8 @@ class ShoesShopRedux extends Component {
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    lengthShoppingList: state.shoesShopReducer.shoppingList.length,
-  };
-};
+const mapStateToProps = state => ({
+  lengthShoppingList: state.shoesShopReducer.shoppingList.length,
+});
 
 export default connect(mapStateToProps)(ShoesShopRedux);
