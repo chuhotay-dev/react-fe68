@@ -1,5 +1,5 @@
 import { createStore, combineReducers } from 'redux';
-import shoesShopReducer from './reducers/ShoesShopReducer';
+import shoesShopReducer from './reducers/shoesShopReducer';
 
 // Khởi tạo root reducer (quản lý các reducers con)
 const rootReducer = combineReducers({
