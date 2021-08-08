@@ -1,5 +1,6 @@
 import './App.css';
-import DemoHandleForm from './lesson-7/handle-form/DemoHandleForm';
+import DemoFormValidation from './lesson-7/handle-form/DemoFormValidation';
+// import DemoHandleForm from './lesson-7/handle-form/DemoHandleForm';
 // import DemoReactLifeCycles from './lesson-7/react-life-cycles/DemoReactLifeCycles';
 // import GameXucXac from './lesson-5-6/game-xuc-xac-redux/GameXucXac';
 // import DemoChildrenProps from './lesson-4/demo-children-props/DemoChildrenProps';
@@ -76,7 +77,9 @@ const App = () => {
       {/* React Life Cycles */}
       {/* <DemoReactLifeCycles /> */}
 
-      <DemoHandleForm />
+      {/* Handle Form */}
+      {/* <DemoHandleForm /> */}
+      <DemoFormValidation />
     </div>
   );
 };

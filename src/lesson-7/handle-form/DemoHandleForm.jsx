@@ -39,6 +39,11 @@ export default class DemoHandleForm extends Component {
       });
       return false;
     }
+
+    this.setState({
+      emailErr,
+      passwordErr,
+    });
     return true;
   };
 
