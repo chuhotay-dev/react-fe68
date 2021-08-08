@@ -1,5 +1,7 @@
 import './App.css';
-import GameXucXac from './lesson-5-6-7/game-xuc-xac-redux/GameXucXac';
+import DemoHandleForm from './lesson-7/handle-form/DemoHandleForm';
+// import DemoReactLifeCycles from './lesson-7/react-life-cycles/DemoReactLifeCycles';
+// import GameXucXac from './lesson-5-6/game-xuc-xac-redux/GameXucXac';
 // import DemoChildrenProps from './lesson-4/demo-children-props/DemoChildrenProps';
 // import FunctionalComponent from './lesson-1/demo-component/FunctionalComponent';
 // import ClassBasedComponent from './lesson-1/demo-component/ClassBasedComponent';
@@ -16,7 +18,7 @@ import GameXucXac from './lesson-5-6-7/game-xuc-xac-redux/GameXucXac';
 // import DemoListsAndKeys from './lesson-2-3/lists-and-keys/DemoListsAndKeys';
 // import Main from './lesson-4/demo-props/Main';
 // import ShoesShop from './lesson-4/shoes-shop/ShoesShop';
-// import ShoesShopRedux from './lesson-5-6-7/shoes-shop-redux/ShoesShopRedux';
+// import ShoesShopRedux from './lesson-5-6/shoes-shop-redux/ShoesShopRedux';
 
 const App = () => {
   return (
@@ -69,7 +71,12 @@ const App = () => {
       {/* <ShoesShopRedux /> */}
 
       {/* Game Xúc Xắc - Redux */}
-      <GameXucXac />
+      {/* <GameXucXac /> */}
+
+      {/* React Life Cycles */}
+      {/* <DemoReactLifeCycles /> */}
+
+      <DemoHandleForm />
     </div>
   );
 };
